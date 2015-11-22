@@ -5,9 +5,11 @@ Category: 程序猿
 Tags: Debian装google chrome
 Slug: debiane4b88be5ae89e8a385google-chrome
 
-今天突然发现了一个小问题，wmaker下竟然没有一个可用的浏览器！自带的w3m实在过于奇葩，于是就在软件源里找可用的浏览器，可软件源今天也出问题了！不知怎么的竟然发现了我们学校的源没有公共许可密钥。于是开始自救。网上说在任意文件下新建个名为“key0x07DC563D1F41B907.asc”的文件。我建在home/下，键入命令：nano
-key0x07DC563D1F41B907.asc
-
+今天突然发现了一个小问题，wmaker下竟然没有一个可用的浏览器！
+自带的w3m实在过于奇葩，于是就在软件源里找可用的浏览器，可软件源今天也出问题了！
+不知怎么的竟然发现了我们学校的源没有公共许可密钥。于是开始自救。
+网上说在任意文件下新建个名为“key0x07DC563D1F41B907.asc”的文件。
+我建在home/下，键入命令：nano key0x07DC563D1F41B907.asc
 输入以下内容：
 
 > -----BEGIN PGP PUBLIC KEY BLOCK-----  
@@ -52,8 +54,8 @@ Crtl+o保存，Crtl+x退出nano。
 
 更新源，成功认证！
 
-但google，firefox，opera在源里都找不到！于是再次上网，由于对google的怀旧，就找装google
-chrome的方法：
+但google，firefox，opera在源里都找不到！于是再次上网，
+由于对google的怀旧，就找装google chrome的方法：
 
 nano /etc/apt/sources.list 打开源地址设置文件，追加google的源
 
@@ -61,9 +63,7 @@ deb http://dl.google.com/linux/deb/ stable main
 
 同样要设置认证：
 
-输入：wget -q -O –
-https://dl-ssl.google.com/linux/linux\_signing\_key.pub | sudo apt-key
-add -
+输入：wget -q -O - https://dl-ssl.google.com/linux/linux\_signing\_key.pub | sudo apt-key add -
 
 然后：apt-get update
 
@@ -73,8 +73,3 @@ add -
 
 不过貌似装下来比较大需要100多M的硬盘空间，这对爱惜内存、磁盘空间的linux用户可不算好。
 
-最后秀一下自己的劳动成果
-
-[![](http://www.jcodef.com/wp-content/uploads/2012/09/igc-300x230.jpg "igc")](http://www.jcodef.com/wp-content/uploads/2012/09/igc.jpg)
-
- 

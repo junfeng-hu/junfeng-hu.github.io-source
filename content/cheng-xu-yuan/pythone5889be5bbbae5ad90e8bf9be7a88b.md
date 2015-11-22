@@ -12,10 +12,6 @@ signal.SIGKILL),同样无法杀死，郁闷纠结之。在kill()后加上wait(),
 "PID:%d" %
 proc.pid(),打印出子进程PID,发现问题了，打印出的进程号，和top显示的不一样，总是相差1，
 
-RT
-
-[![](http://jcodef.com/wp-content/uploads/2012/10/bug-300x168.png "bug")](http://jcodef.com/wp-content/uploads/2012/10/bug.png)
-
 于是把改成os.kill(proc.pid+1,signal.SIGKILL), 成功杀死子进程。
 
 于是很激动以为发现了python的bug，想着跟python社区发个邮件报告一下。
@@ -40,13 +36,5 @@ style="color: #000000;">“需要注意的是，如果你的shell参数设置为
 但为什么相差总是相差1呢？官方也没给出解释。
 
 于是去掉shell=True,kill(),和os.kill(pid,signal.SIGKILL)都能工作。
-
-最终源代码：
-
-[![](http://jcodef.com/wp-content/uploads/2012/10/Screenshot-from-2012-10-24-195604-300x215.png "Screenshot from 2012-10-24 19:56:04")](http://jcodef.com/wp-content/uploads/2012/10/Screenshot-from-2012-10-24-195604.png)
-
-helloworld.c测试代码：
-
-[![](http://jcodef.com/wp-content/uploads/2012/10/Screenshot-from-2012-10-24-195532-300x122.png "Screenshot from 2012-10-24 19:55:32")](http://jcodef.com/wp-content/uploads/2012/10/Screenshot-from-2012-10-24-195532.png)
 
 主要是因为自己看文档不够细心，同时早就应该尝试把shell=True去掉的。也不至于浪费那么长时间。

@@ -15,8 +15,6 @@ sudo pacman -S eclipse
 
 安装android-sdk，android-sdk-platform-tools无法解决依赖：
 
-[![](http://jcodef.com/wp-content/uploads/2012/12/2012-12-09-192629_740x485_scrot-300x196.png "2012-12-09-192629_740x485_scrot")](http://jcodef.com/wp-content/uploads/2012/12/2012-12-09-192629_740x485_scrot.png)
-
 在/etc/pacman.conf中启用multilib源
 
 sudo vim /etc/pacman.conf
@@ -24,8 +22,6 @@ sudo vim /etc/pacman.conf
 安装android-sdk，android-sdk-platform-tools
 
 sudo pacman -S android-sdk android-sdk-platform-tools
-
-[![](http://jcodef.com/wp-content/uploads/2012/12/2012-12-09-193119_737x460_scrot-300x187.png "2012-12-09-193119_737x460_scrot")](http://jcodef.com/wp-content/uploads/2012/12/2012-12-09-193119_737x460_scrot.png)
 
 感觉文件好大啊！但到后面装eclipse-android时真的是小巫见大巫了。
 
@@ -53,8 +49,6 @@ sudo也可以。
 
 选择android API版本下载安装。
 
-[![](http://jcodef.com/wp-content/uploads/2012/12/2012-12-10-225726_668x470_scrot-300x211.png "2012-12-10-225726_668x470_scrot")](http://jcodef.com/wp-content/uploads/2012/12/2012-12-10-225726_668x470_scrot.png)
-
 启动eclipse，设置android-sdk路径。
 
 android开发环境已配置完成。
@@ -68,8 +62,6 @@ new新建android虚拟机。
 
 设置参数
 
-[![](http://jcodef.com/wp-content/uploads/2012/12/2012-12-10-223822_470x689_scrot-204x300.png "2012-12-10-223822_470x689_scrot")](http://jcodef.com/wp-content/uploads/2012/12/2012-12-10-223822_470x689_scrot.png)
-
 Start启动虚拟机
 
 若出现问题无法启动，按照提示提供的执行命令。
@@ -80,13 +72,10 @@ Start启动虚拟机
 
 最后出现android虚拟机：
 
-[![](http://jcodef.com/wp-content/uploads/2012/12/2012-12-09-233805_1366x768_scrot-300x168.png "2012-12-09-233805_1366x768_scrot")](http://jcodef.com/wp-content/uploads/2012/12/2012-12-09-233805_1366x768_scrot.png)
-
 成功
 
 时间主要花在下载android-sdk和android-sdk-platform-tools上，学校源中无此软件包，只能在官网上下载，但官网已限速，而且多次出现下载完后，返回莫名错误。
 
 用yaourt下载eclipse-android依赖包时也是花费较多时间。
 
-参考：[Android
-(简体中文)](https://wiki.archlinux.org/index.php/Android_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+参考：[Android(简体中文)](https://wiki.archlinux.org/index.php/Android_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))

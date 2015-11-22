@@ -1,11 +1,9 @@
 Title: setjmp and longjmp
 Date: 2013-11-03 15:35
-Author: algu
+Author: junfeng
 Category: 程序猿
 Tags: nolocaljmp
 Slug: setjmp-and-longjmp
-
-![](http://ww4.sinaimg.cn/large/894981ddtw1ea7v9y0qdsj20gx0stwj3.jpg)
 
  
 

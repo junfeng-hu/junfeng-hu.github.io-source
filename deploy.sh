@@ -3,8 +3,8 @@ BRANCH=master
 TARGET_REPO=junfeng-hu/junfeng-hu.github.io.git
 PELICAN_OUTPUT_FOLDER=output
 
-echo -e "Testing travis-encrypt"
-echo -e "$VARNAME"
+COMMIT_MESSAGE=$(git log --format=%B -n 1 $TRAVIS_COMMIT)
+echo $COMMIT_MESSAGE
 
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     echo -e "Starting to deploy to Github Pages\n"
@@ -19,7 +19,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     rsync -rv --exclude=.git  ../$PELICAN_OUTPUT_FOLDER/* .
     #add, commit and push files
     git add -f .
-    git commit -m "<Travis $TRAVIS_BUILD_NUMBER> $TRAVIS_COMMIT"
+    git commit -m "<Travis $TRAVIS_BUILD_NUMBER> $COMMIT_MESSAGE"
     git push -fq origin $BRANCH > /dev/null
     echo -e "Deploy completed\n"
 fi

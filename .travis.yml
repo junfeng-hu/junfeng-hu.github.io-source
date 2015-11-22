@@ -1,0 +1,20 @@
+branches:
+  only:
+  - master
+language: python
+python:
+- 3.5
+install:
+- pip install -r requirements.txt --use-mirrors
+script:
+- make publish
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+before_install:
+- git submodule update --init --recursive
+after_success: bash deploy.sh
+env:
+  global:
+    secure: XVQ1vpZQ1AoiBLMLVU2wB4SvbSwQ/VESos+wEDIBwHATNrDjnJJahpXeEx9KOqzHg1wwU4Ak9XOIyLCatq7irM4wQROGYCXcRqsZMjEGJKXSMZ2+t92rUivqA0YbF19+lL9uq1pG66JNqBd6Bsv6w3qcI5LuxqlzXfLyYKVrx/kiuH4TOkO3dE/Jxh4f63Szc3znfBzGql5Dao65a8YShRk7WTqVrEiP382nVO7tXQSoHURiUbsuYqYfNC3yhmP+vpyJ9txXLhBkAqA0oUNfObz35ZAOuJcw6UpfjMuU83AW8SJ/KEFTltThx4kOIur0OLR1d7VqAjpsX/PeXKFLvxduHjbuse8hSKr5ISTIe14Exmeo65GKokck+3YYovOwwFmbakuU32xf3lDhhJDvkRHAdjY4nMKrIxjwrz4o6xJeD6zGPJ01L6x4QwMs7FIwNvEeUSMs+3+hWgmViPE77u+D+enDe4S05yZVqVurrHG2SHaVYDSWttWUApGBkTABceiCmmMHhV97ZcckxiHBfasJgby3S3MHCL4nFnVIPc+GbaLjAagULSdp1OID5/H/XAcRaFdc4u18f8JsxwWz1a7KiNvRV67fyeB0Ub4j1Alo93sujYogxIwHg22J58ldr18CdsT5fiV4B4nrXLI9le6ljPn4AzYbPHogzIUL3Vk=

@@ -1,0 +1,8 @@
+pelican-*/
+output/
+cache/
+__pycache__/
+*.pid
+*.pyc
+*.pyo
+*.bak/

@@ -13,7 +13,7 @@ TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'zh'
 
-DISQUS_SITENAME = 'junfeng'
+DISQUS_SITENAME = 'junfenglx'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -68,7 +68,7 @@ DEFAULT_CATEGORY = u"Python"
 
 ARCHIVES_URL = "archives.html"
 
-# GITHUB_URL = u"https://github.com/junfeng-hu"
+# GITHUB_URL = u"https://github.com/junfenglx"
  #GITHUB_POSITION = "right"
 
 STATIC_PATHS = ["images",

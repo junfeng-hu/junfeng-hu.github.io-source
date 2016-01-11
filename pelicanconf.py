@@ -32,7 +32,7 @@ LINKS =  (
 
 # Social widget
 SOCIAL = (
-        ('GitHub', 'https://github.com/junfeng-hu'),
+        ('GitHub', 'https://github.com/junfenglx'),
         ('Bitbucket', 'https://bitbucket.org/junfeng_hu'),
         ('Twitter', 'https://twitter.com/junfeng_hu'),
         ('Weibo', 'http://weibo.com/junfeng7'),

@@ -13,7 +13,7 @@ TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'zh'
 
-DISQUS_SITENAME = 'junfenglx'
+DISQUS_SITENAME = 'junfeng'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -88,3 +88,5 @@ EXTRA_PATH_METADATA = {
 
 
 HIDE_CATEGORIES_FROM_MENU = True
+
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'toc']

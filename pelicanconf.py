@@ -46,7 +46,7 @@ RELATIVE_URLS = True
 
 THEME = "fresh"
 
-PLUGIN_PATHS = [".",
+PLUGIN_PATHS = ["./plugins",
         ]
 PLUGINS = ["sitemap"]
 SITEMAP = {
@@ -62,6 +62,10 @@ SITEMAP = {
         "pages": "monthly",
     }
 }
+
+MARKUP = ('md', 'ipynb')
+
+PLUGINS = ['ipynb.markup']
 
 
 DEFAULT_CATEGORY = u"Python"

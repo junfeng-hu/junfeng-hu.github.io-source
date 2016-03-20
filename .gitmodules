@@ -3,4 +3,4 @@
 	url = git://github.com/junfenglx/pelican-ipynb.git
 [submodule "plugins/render_math"]
 	path = plugins/render_math
-	url = git@github.com:barrysteyn/pelican_plugin-render_math.git
+	url = git://github.com/junfenglx/pelican_plugin-render_math.git

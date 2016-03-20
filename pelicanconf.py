@@ -63,9 +63,12 @@ SITEMAP = {
     }
 }
 
+# ipynb
 MARKUP = ('md', 'ipynb')
+PLUGINS += ['ipynb.markup']
 
-PLUGINS = ['ipynb.markup']
+# render_math
+PLUGINS += ['render_math']
 
 
 DEFAULT_CATEGORY = u"Python"

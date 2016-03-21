@@ -68,6 +68,8 @@ MARKUP = ('md', 'ipynb')
 PLUGINS += ['ipynb.markup']
 
 # render_math
+# latex equations in summary in index page are rendered
+# correctly by MathJax, even the latex equations come from ipynb.
 PLUGINS += ['render_math']
 
 

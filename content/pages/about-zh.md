@@ -1,14 +1,14 @@
-Title: About Me
+Title: 关于我
 Date: 2015-03-08 13:00:00
 Author: junfeng
 Slug: about
-Lang: en
+Lang: zh
 
-*Resume*
+*简介*
 
 [TOC]
 
-## Basic Info
+##基本信息
 updated at 2016-03-29 19:25:15
 
 当前研究领域为机器学习，深度学习。
@@ -21,7 +21,7 @@ updated at 2016-03-29 19:25:15
 
 2011年8月 -> 2015年7月 就读于某工科学校软件学院软件工程。
 
-## Professional Skills
+##专业技能
 updated at 2016-03-29 19:34:13
 
 * 主力C++, Python，Java开发
@@ -35,20 +35,20 @@ updated at 2016-03-29 19:34:13
 * 略懂些Linux C开发，网络编程，计算机网络知识
 
 
-## Project Experience
+## 项目经历
 updated at 2016-03-29 19:44:08
 
-### Graduate
+### 研究生阶段
 2016年1月 -> 当前 NLP相关工作。
 
 2015年8月 -> 2015年12月 大数据元数据管理系统(Java)
 
-### Undergraduate
+### 本科阶段
 经常用Python做些小工具，也接过网上的些小项目，
 不值在此列出来，详细可以参考[Github][1], [Bitbucket][2]。
 
 
-## Self Assessment
+##自我评价
 专业理论相对扎实，实践也有一些。
 
 对底层有较好的认识。
@@ -58,7 +58,7 @@ updated at 2016-03-29 19:44:08
 立志做一个调的了 API 写的了 implementation 的,
 具有计算机科学家般理论基础的程序员。
 
-## Favorite Sports
+##爱好运动
 * 乒乓球
 * 羽毛球
 * 台球

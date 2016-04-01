@@ -11,7 +11,7 @@ PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
 
-DEFAULT_LANG = 'zh'
+DEFAULT_LANG = 'en'
 
 DISQUS_SITENAME = 'junfeng'
 
@@ -24,11 +24,11 @@ AUTHOR_FEED_RSS = None
 
 # menuitems
 MENUITEMS = (
-        (u'首页', u'/'),
-        )
+    (u'Home', u'/'),
+)
+
 # Blogroll
-LINKS =  (
-          )
+LINKS = ()
 
 # Social widget
 SOCIAL = (
@@ -78,7 +78,7 @@ DEFAULT_CATEGORY = u"Python"
 ARCHIVES_URL = "archives.html"
 
 # GITHUB_URL = u"https://github.com/junfenglx"
- #GITHUB_POSITION = "right"
+# GITHUB_POSITION = "right"
 
 STATIC_PATHS = ["images",
                 "static/upload",

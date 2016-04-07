@@ -11,61 +11,64 @@ Lang: en
 ## Basic Info
 updated at 2016-03-29 19:25:15
 
-当前研究领域为机器学习，深度学习。
+My current research interests are machine learning, deep learning.
 
-对操作系统，网络，编程语言，数据库都有较大的兴趣。
+Also I'm interested in operating systems, networks, programming languages, databases.
 
-主要还是在搬砖。
+But my current work is mainly in moving bricks.
 
-2015年8月 -> 当前 某高校计算机学院研究生在读。
+August 2015 -> Now, Graduate Student, School of Computer Science, XX University.
 
-2011年8月 -> 2015年7月 就读于某工科学校软件学院软件工程。
+August 2011 -> July 2015, Undergraduate Student, School of Software Engineering, XX University.
 
 ## Professional Skills
 updated at 2016-03-29 19:34:13
 
-* 主力C++, Python，Java开发
-* 三年Arch Linux使用经验，熟悉Linux命令基本操作
-* 能够快速配置各种软件环境
-* 熟悉PostgreSQL MySQL数据库的基本使用
-* 熟悉Reids，MongoDB，HBase的使用
-* 较为熟悉Web爬虫编写
-* 熟练掌握基本的数据结构和相应算法
-* 熟悉C，JavaScript
-* 略懂些Linux C开发，网络编程，计算机网络知识
+* Main C ++, Python, Java developer
+* three years experience of Arch Linux, familiar with the basic operation of Linux commands
+* Ability to quickly configure a variety of software environments
+* Familiar with the basic usage of PostgreSQL, MySQL database
+* Familiar with Reids, MongoDB, HBase
+* More familiar with writing Web crawler
+* Master the basic data structures and algorithms
+* Familiar with C, JavaScript
+* Some knowledge of Linux C development, network programming
 
 
 ## Project Experience
 updated at 2016-03-29 19:44:08
 
 ### Graduate
-2016年1月 -> 当前 NLP相关工作。
 
-2015年8月 -> 2015年12月 大数据元数据管理系统(Java)
+January 2016 -> Now, NLP related works.
 
+August 2015 -> December 2015, Bigdata Metadata Management System (Java)
+ 
 ### Undergraduate
-经常用Python做些小工具，也接过网上的些小项目，
-不值在此列出来，详细可以参考[Github][1], [Bitbucket][2]。
+Often uses Python to do some small tools,
+but also takes some small projects in the Internet,
+not worth listed here, the details can refer to [Github] [1], [Bitbucket] [2].
 
 
 ## Self Assessment
-专业理论相对扎实，实践也有一些。
 
-对底层有较好的认识。
+I have abundant professional theories and practice some of them in my part time jobs when I was in university.
 
-爱钻研，兴趣广泛，喜欢尝试新技术。
+I know much about the operation of the base course.
 
-立志做一个调的了 API 写的了 implementation 的,
-具有计算机科学家般理论基础的程序员。
+I am keen on studying something difficult and having a wide interest,
+trying to practicing new computer technologies.
+
+A programmer who can call many libraries' API also can write the implementation is my aspiration.
 
 ## Favorite Sports
-* 乒乓球
-* 羽毛球
-* 台球
-* 网球
-* 健身
-* 游泳
 
+* Pingpong
+* Badminton
+* Billiard
+* Tennis
+* Gym
+* Swimming
 
 
 [1]: https://github.com/junfenglx

@@ -32,12 +32,13 @@ LINKS = ()
 
 # Social widget
 SOCIAL = (
-        ('GitHub', 'https://github.com/junfenglx'),
-        ('Bitbucket', 'https://bitbucket.org/junfeng_hu'),
-        ('Twitter', 'https://twitter.com/junfeng_hu'),
-        ('Weibo', 'http://weibo.com/junfeng7'),
-        ('Instagram', 'http://instagram.com/junfeng_hu'),
-        )
+    ('GitHub', 'https://github.com/junfenglx'),
+    ('Bitbucket', 'https://bitbucket.org/junfeng_hu'),
+    ('Twitter', 'https://twitter.com/junfeng_hu'),
+    ('Weibo', 'http://weibo.com/junfeng7'),
+    ('Instagram', 'https://www.instagram.com/junfeng_hu/'),
+    ('Kaggle', 'https://www.kaggle.com/junfeng'),
+)
 
 DEFAULT_PAGINATION = 10
 

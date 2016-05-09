@@ -28,7 +28,7 @@ updated at 2016-03-29 19:34:13
 * 三年Arch Linux使用经验，熟悉Linux命令基本操作
 * 能够快速配置各种软件环境
 * 熟悉PostgreSQL MySQL数据库的基本使用
-* 熟悉Reids，MongoDB，HBase的使用
+* 熟悉Redis，MongoDB，HBase的使用
 * 较为熟悉Web爬虫编写
 * 熟练掌握基本的数据结构和相应算法
 * 熟悉C，JavaScript

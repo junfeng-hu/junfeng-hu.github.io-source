@@ -28,7 +28,7 @@ updated at 2016-03-29 19:34:13
 * three years experience of Arch Linux, familiar with the basic operation of Linux commands
 * Ability to quickly configure a variety of software environments
 * Familiar with the basic usage of PostgreSQL, MySQL database
-* Familiar with Reids, MongoDB, HBase
+* Familiar with Redis, MongoDB, HBase
 * More familiar with writing Web crawler
 * Master the basic data structures and algorithms
 * Familiar with C, JavaScript
